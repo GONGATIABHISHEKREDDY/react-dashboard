@@ -1,0 +1,50 @@
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .filter-buttons {
+    margin-bottom: 10px;
+  }
+  
+  .filter-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .filter-buttons .active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.2);
+  }
+  
